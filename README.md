@@ -1,25 +1,25 @@
-# 🚀 REST API CRUD - Users & Posts (Node.js, Express.js, Sequelize, MySQL)
+# REST API CRUD - Users & Posts (Node.js, Express.js, Sequelize, MySQL)
 
-Ini adalah REST API CRUD menggunakan **Node.js**, **Express.js**, dan **Sequelize** untuk mengelola data **Users** dan **Posts**.  
-API ini memungkinkan untuk membuat, membaca, memperbarui, dan menghapus data pengguna dan postingan dengan relasi antar tabel.  
-Dilengkapi fitur pencarian, pagination, dan validasi yang memperkuat fungsionalitas API ini.
-
----
-
-## 📚 Fitur Utama
-- CRUD untuk tabel **Users**
-- CRUD untuk tabel **Posts**
-- Relasi antara **Posts** dan **Users** (`posts.user_id` → `users.id`)
-- Validasi email unik pada **Users**
-- Validasi `user_id` pada **Posts** harus valid
-- Pencarian posting berdasarkan **title**
-- Pagination untuk posting dengan query `page` & `limit`
+This is a REST API CRUD built with **Node.js**, **Express.js**, and **Sequelize** to manage **Users** and **Posts** data.  
+The API allows creating, reading, updating, and deleting user and post records with relational support between tables.  
+It also includes search functionality, pagination, and validations to enhance the API’s robustness.
 
 ---
 
-## ⚙️ Teknologi yang Digunakan
+## Key Features
+- CRUD operations for the **Users** table
+- CRUD operations for the **Posts** table
+- Relationship between **Posts** and **Users** (`posts.user_id` → `users.id`)
+- Unique email validation for **Users**
+- `user_id` validation in **Posts** must refer to an existing user
+- Search posts by **title**
+- Pagination for posts with `page` & `limit` query parameters
+
+---
+
+## Technologies Used
 - Node.js
 - Express.js
 - MySQL
 - Sequelize ORM
-- Postman (untuk testing)
+- Postman (for testing)
